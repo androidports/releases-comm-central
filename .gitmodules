@@ -1,0 +1,4 @@
+[submodule "mozilla"]
+	path = mozilla
+	url = https://github.com/androidports/gecko-dev.git
+	branch = androidports
