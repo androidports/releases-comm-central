@@ -53,6 +53,10 @@
 #ifndef _LDAP_TOBE_DEPRECATED_H
 #define _LDAP_TOBE_DEPRECATED_H
 
+#ifdef ANDROID
+#include <sys/select.h>
+#endif
+
 #ifdef __cplusplus
 extern "C" {
 #endif
